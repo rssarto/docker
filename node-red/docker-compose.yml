@@ -2,6 +2,6 @@ version: "2.0"
 
 services:
   node-red:
-    image: nodered/node-red-docker
+    image: nodered/node-red-docker:rpi
     ports: 
       - "1880"      
